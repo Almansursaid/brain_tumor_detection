@@ -49,9 +49,19 @@ Brain_Tumor_Detection/
 ├── brain_tumor_model.h5       # Trained CNN model
 ├── Training/                  # Training data
 ├── Testing/                   # Testing data
-├── requirements.txt/          # requirements file
+├── requirements.txt           # requirements
 └── README.md                  # Project documentation
 ```
+
+---
+
+## Dataset
+
+The model was trained on the **Brain Tumor MRI Dataset** available on Kaggle:
+
+[Brain Tumor MRI Dataset - Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+
+The dataset contains MRI images classified into four categories: Glioma Tumor, Meningioma Tumor, No Tumor, and Pituitary Tumor. It is split into training and testing directories with subfolders for each class.
 
 ---
 
@@ -126,4 +136,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
